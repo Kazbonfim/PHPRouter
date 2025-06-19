@@ -1,0 +1,40 @@
+body {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    user-select: none;
+}
+
+/* Conteúdo copiado dos exemplos presentes em https: //getbootstrap.com/docs/5.3/examples/carousel/ e ajustados */
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+/* rtl:end:ignore */
+
+.retroshadow {
+    color: #2c2c2c;
+    letter-spacing: 0.05em;
+    text-shadow:
+        4px 4px 0 lightblue,
+        7px 7px 0 rgba(173, 216, 230, 0.2);
+}
+
+.icon {
+    border-radius: 100%;
+    font-size: 10rem;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
